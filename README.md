@@ -1,5 +1,5 @@
-# docker-mysql-replication
-
+# docker-mysql-replication master and slave containers<br />
+<br />
 download the files<br />
 git clone https://github.com/danradom/docker-mysql-replication mysql-replication<br />
 <br />
