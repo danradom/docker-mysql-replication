@@ -11,13 +11,13 @@ change to the mysql-replication directory and start the network<br />
 <br />
 <br />
 change to the mysql1 directory and build the image and start the container and connect to it<br />
-build . -t mysql1<br />
+docker build . -t mysql1<br />
 ./start_container.sh<br />
 ./connect.sh<br />
 <br />
 <br />
 change to the mysql2 directory and build the image and start the container and connect to it<br />
-build . -t mysql2<br />
+docker build . -t mysql2<br />
 ./start_container.sh<br />
 ./connect.sh<br />
 <br />
