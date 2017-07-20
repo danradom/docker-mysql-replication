@@ -14,10 +14,10 @@ replicator is the replication user.  replpass is the replicaiton use password.  
 <br />
 <br />
 cd to the mysql1 directory and build the image<br />
-- docker build . -t mysql1<br />
+docker build . -t mysql1<br />
 <br />
 cd to the mysql2 directory and build the image<br />
-- docker build . -t mysql2<br />
+docker build . -t mysql2<br />
 <br />
 start the master by running the start_container.sh script in the mysql1 directory<br />
 <br />
