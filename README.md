@@ -1,6 +1,6 @@
 # docker-mysql-replication
 
-download the files
+download the files<br />
 git clone https://github.com/danradom/docker-mysql-replication mysql-replication
 
 cd to the mysql-replication directory run start_network.sh to start the 172.18.0.0/24 network
