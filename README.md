@@ -8,9 +8,11 @@ download the files<br />
 git clone https://github.com/danradom/docker-mysql-replication mysql-replication<br />
 <br />
 change to the mysql-replication directory and start the network<br />
+
 ```
 ./start_network.sh
 ```
+
 <br />
 change to the mysql1 directory and edit the start_container.sh changing the two paths to the mysql-replication directory<br />
 
@@ -46,7 +48,8 @@ docker build . -t mysql2
 *building the containers will take a few minutes.  once the images are built you can omit this step and simply start the containers.*<br />
 <br />
 <br />
-confirm replication is working by running the following from the contrainer shells.
+confirm replication is working by running the following from the contrainer shells.<br />
+
 ```
 mysql1
 mysql -e "show master status\G"
