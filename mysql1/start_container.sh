@@ -2,7 +2,7 @@
 #
 
 docker run --rm -it -d \
-	--net mynet \
+	--net mysql-replication \
 	--ip 172.18.0.100 \
 	-e MYSQL_ALLOW_EMPTY_PASSWORD \
 	-v /home/dr/docker/images/mysql-replication/mysql1/my_cnf/mysql1.cnf:/etc/my.cnf \
