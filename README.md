@@ -1,5 +1,5 @@
 # mysql replication master and slave containers
-mysql master and slave docker containers.  there is nothing to configure.  simply build the image and start the containers for a working replication environment<br />
+mysql master and slave docker containers.  edit the start_container.sh scripts, build the image, and start the containers for a working replication environment<br />
 <br />
 ### installation
 download the files<br />
@@ -9,11 +9,21 @@ change to the mysql-replication directory and start the network<br />
 ./start_network.sh<br />
 <br />
 change to the mysql1 directory and build the image and start the container and connect to it<br />
+edit the start_container changing the two paths to the mysql-replication directory<br />
+```
+-v /home/dr/docker/images/mysql-replication/mysql1/my_cnf/mysql1.cnf:/etc/my.cnf \
+-v /home/dr/docker/images/mysql-replication/mysql1:/install \
+```
 docker build . -t mysql1<br />
 ./start_container.sh<br />
 ./connect.sh<br />
 <br />
 change to the mysql2 directory and build the image and start the container and connect to it<br />
+edit the start_container changing the two paths to the mysql-replication directory<br />
+```
+-v /home/dr/docker/images/mysql-replication/mysql2/my_cnf/mysql1.cnf:/etc/my.cnf \
+-v /home/dr/docker/images/mysql-replication/mysql2:/install \
+```
 docker build . -t mysql2<br />
 ./start_container.sh<br />
 ./connect.sh<br />
