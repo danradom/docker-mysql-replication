@@ -10,7 +10,7 @@ if [ ! -d "$datadir/mysql" ]; then
 	pid="$!"
 	sleep 10
 	mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql --protocol=socket -uroot -hlocalhost --socket=/var/lib/mysql/mysql.sock mysql
-	/etc/supervisor/mysql-post.sh
+	/var/lib/mysql-init/mysql-post.sh
 	kill -s TERM "$pid"
 	chown -R mysql:mysql "$datadir"
 fi
