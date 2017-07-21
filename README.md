@@ -17,7 +17,8 @@ docker build . -t mysql2<br />
 ./start_container.sh<br />
 ./connect.sh<br />
 <br />
-*building the container may take a few minutes*
+*building the containers will take a few minutes*<br />
+<br />
 ### configuration
 there is nothing to configure<br />
 <br />
