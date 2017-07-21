@@ -23,6 +23,7 @@ docker build . -t mysql2<br />
 <br />
 <br />
 ### setup
+<br />
 the mysql1 master ip is 172.18.0.100<br />
 the mysql2 slave ip is 172.18.0.101<br />
 <br />
