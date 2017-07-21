@@ -1,4 +1,4 @@
 #!/bin/sh
 #
 
-docker network rm mynet
+docker network rm mysql-replication
