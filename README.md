@@ -1,5 +1,5 @@
 # mysql replication master and slave containers
-mysql master and slave docker containers.  there is nothing to configure.  build the image and start the container for a working replication environment<br />
+mysql master and slave docker containers.  there is nothing to configure.  simply build the image and start the containers for a working replication environment<br />
 <br />
 ### installation
 download the files<br />
