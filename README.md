@@ -58,12 +58,15 @@ change to the top level mysql-replication directory<br />
 ```
 
 <br />
-### configuration
-there is nothing to configure<br />
+### database configuration
+| hostname | function | ip address |
+| --- |--- | --- |
+| mysql1 | master | 172.18.0.100 |
+| mysql2 | slave | 172.18.0.101 |
 <br />
-mysql1 master:  172.18.0.100<br />
-mysql2 slave:  172.18.0.101<br />
-<br />
-mysql replication user:  replicator<br />
-mysql replicator user password:  replpass<br />
-mysql root user password:  none<br />
+| user | host | password |
+| --- | --- | ---|
+| root | localhost | |
+| replicator | 172.18.0.100 | replpass |
+| replicator | 172.18.0.101 | replpass |
+
