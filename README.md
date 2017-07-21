@@ -1,6 +1,7 @@
 # mysql replication master and slave containers
+mysql master and slave docker containers.  there is nothing to configure.  build the image and start the container for a working master / slave replicaiton setup<br />
+<br />
 ### installation
-
 download the files<br />
 git clone https://github.com/danradom/docker-mysql-replication mysql-replication<br />
 <br />
