@@ -59,11 +59,13 @@ change to the top level mysql-replication directory<br />
 
 <br />
 ### database configuration
+
 | hostname | function | ip address |
 | --- |--- | --- |
 | mysql1 | master | 172.18.0.100 |
 | mysql2 | slave | 172.18.0.101 |
-<br />
+
+
 | user | host | password |
 | --- | --- | ---|
 | root | localhost | |
