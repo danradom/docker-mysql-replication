@@ -30,8 +30,9 @@ change to the top level mysql-replication directory<br />
 ### configuration
 there is nothing to configure<br />
 <br />
-the mysql1 master ip is 172.18.0.100<br />
-the mysql2 slave ip is 172.18.0.101<br />
+mysql1 master:  172.18.0.100<br />
+mysql2 slave:  172.18.0.101<br />
 <br />
-the mysql replication use is replicator and the password is replpass<br />
-there is no mysql root password<br />
+mysql replication user:  replicator<br />
+mysql replicator user password:  replpass<br />
+mysql root user password:  none<br />
