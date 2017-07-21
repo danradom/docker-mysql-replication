@@ -28,4 +28,12 @@ the mysql1 master ip is 172.18.0.100<br />
 the mysql2 slave ip is 172.18.0.101<br />
 <br />
 the mysql replication use is replicator and the password is replpass<br />
-there is no mysql root password
+there is no mysql root password<br />
+<br />
+<br />
+### stopping the containers and network
+exit the container<br />
+./stop_container.sh
+<br />
+change to the top level mysql-replication directory<br />
+./stop_network.sh
