@@ -1,7 +1,7 @@
 # mysql replication master and slave containers
 ### installation
-<br />
- download the files<br />
+
+download the files<br />
 git clone https://github.com/danradom/docker-mysql-replication mysql-replication<br />
 <br />
 <br />
@@ -21,8 +21,7 @@ docker build . -t mysql2<br />
 ./connect.sh<br />
 <br />
 <br />
-# configuration
-<br />
+### configuration
 the mysql1 master ip is 172.18.0.100<br />
 the mysql2 slave ip is 172.18.0.101<br />
 <br />
