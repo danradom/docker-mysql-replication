@@ -17,7 +17,7 @@ docker build . -t mysql2<br />
 ./start_container.sh<br />
 ./connect.sh<br />
 <br />
-*building the containers will take a few minutes*<br />
+*building the containers will take a few minutes.  once the images are built you can omit this step and simply start the containers.*<br />
 <br />
 ### configuration
 there is nothing to configure<br />
