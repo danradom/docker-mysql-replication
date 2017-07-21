@@ -24,7 +24,7 @@ change to the mysql1 directory and edit the start_container.sh changing the two 
 build the image and start the container and connect to it<br />
 
 ```
-docker build . -t mysql1
+./build.sh
 ./start_container.sh
 ./connect.sh
 ```
@@ -39,7 +39,7 @@ change to the mysql2 directory and edit the start_container.sh changing the two 
 build the image and start the container and connect to it<br />
 
 ```
-docker build . -t mysql2
+./build.sh
 ./start_container.sh
 ./connect.sh
 ```
