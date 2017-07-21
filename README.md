@@ -20,6 +20,13 @@ docker build . -t mysql2<br />
 <br />
 *building the containers will take a few minutes.  once the images are built you can omit this step and simply start the containers.*<br />
 <br />
+### stopping the containers and network
+exit the container<br />
+./stop_container.sh<br />
+<br />
+change to the top level mysql-replication directory<br />
+./stop_network.sh<br />
+<br />
 ### configuration
 there is nothing to configure<br />
 <br />
@@ -28,10 +35,3 @@ the mysql2 slave ip is 172.18.0.101<br />
 <br />
 the mysql replication use is replicator and the password is replpass<br />
 there is no mysql root password<br />
-<br />
-### stopping the containers and network
-exit the container<br />
-./stop_container.sh<br />
-<br />
-change to the top level mysql-replication directory<br />
-./stop_network.sh
