@@ -58,6 +58,9 @@ mysql2
 mysql -e "show slave status\G"
 ```
 
+occasionally replication is in a failed state on mysql2.  stopping and starting the mysql2 container resolves this.<br />
+<br />
+
 ### stopping the containers and network
 
 exit the container<br />
