@@ -22,10 +22,10 @@ docker build . -t mysql2<br />
 <br />
 <br />
 ### configuration
+there is nothing to configure<br />
+<br />
 the mysql1 master ip is 172.18.0.100<br />
 the mysql2 slave ip is 172.18.0.101<br />
 <br />
-<br />
 the mysql replication use is replicator and the password is replpass<br />
-<br />
-there is no mysql root password\
+there is no mysql root password
