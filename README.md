@@ -85,9 +85,8 @@ change to the top level mysql-replication directory<br />
 
 <br />
 
-| user | host | password |
-| --- | --- | ---|
-| root | localhost | |
-| replicator | 172.18.0.100 | replpass |
-| replicator | 172.18.0.101 | replpass |
+| user | host | password | host |
+| --- | --- | ---| --- |
+| root | localhost | | mysql1 / mysql2 |
+| replicator | 172.18.0.101 | replpass | mysql1 |
 
