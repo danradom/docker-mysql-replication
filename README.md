@@ -45,6 +45,15 @@ docker build . -t mysql2
 <br />
 *building the containers will take a few minutes.  once the images are built you can omit this step and simply start the containers.*<br />
 <br />
+<br />
+confirm replication is working by running the following from the contrainer shells.
+```
+mysql1
+mysql -e "show master status\G"
+
+mysql2
+mysql -e "show slave status\G"
+```
 
 ### stopping the containers and network
 
