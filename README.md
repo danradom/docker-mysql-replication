@@ -25,7 +25,7 @@ build the image and start the container and connect to it<br />
 ```
 
 <br />
-*wait about 30 seconds before proceeding.  this gives mysql enough time to come up on mysql1 before starting the mysql container*<br />
+*wait about 30 seconds before proceeding.  this gives mysql enough time to come up on mysql1 before starting the mysql container.failing to do so could result in broken replication*<br />
 <br />
 
 change to the mysql2 directory<br />
