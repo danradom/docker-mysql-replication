@@ -1,5 +1,4 @@
 # mysql replication master and slave containers
-<br />
 # installation
 <br />
  download the files<br />
