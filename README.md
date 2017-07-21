@@ -24,6 +24,10 @@ build the image and start the container and connect to it<br />
 ./connect.sh
 ```
 
+<br />
+*wait about 30 seconds before proceeding.  this gives mysql enough time to come up on mysql1 before starting the mysql container*<br />
+<br />
+
 change to the mysql2 directory<br />
 
 build the image and start the container and connect to it<br />
@@ -35,7 +39,7 @@ build the image and start the container and connect to it<br />
 ```
 
 <br />
-*building the containers will take a few minutes.  once the images are built you can omit this step and simply start the containers.*<br />
+*building the first container will take a minute or two.  the second image build will use the cached copy.  once the images are built you can omit this step and simply start the containers.*<br />
 <br />
 <br />
 confirm replication is working by running the following from the contrainer shells.<br />
