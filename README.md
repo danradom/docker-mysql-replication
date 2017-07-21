@@ -1,7 +1,9 @@
 # mysql replication master and slave containers
 mysql master and slave docker containers.  edit the start_container.sh scripts, build the image, and start the containers for a working replication environment<br />
 <br />
+
 ### installation
+
 download the files<br />
 git clone https://github.com/danradom/docker-mysql-replication mysql-replication<br />
 <br />
@@ -60,8 +62,9 @@ change to the top level mysql-replication directory<br />
 ```
 
 <br />
+
 ### database configuration
-<br />
+
 
 | hostname | function | ip address |
 | --- |--- | --- |
