@@ -90,3 +90,5 @@ change to the top level mysql-replication directory<br />
 | root | localhost | | mysql1 / mysql2 |
 | replicator | 172.18.0.101 | replpass | mysql1 |
 
+<br />
+*there is no mysql root user password*<br />
